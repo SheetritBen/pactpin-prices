@@ -1,0 +1,21 @@
+// Offline checks for the safety rules — runs before every update.
+import assert from 'node:assert/strict';
+import { decide, servicesForToday, parseReply } from './decide.mjs';
+const cur = { plan: 'Standard', billing: 'monthly', cost: 17.99 };
+assert.equal(decide(cur, 17.99, null, '2026-10-20').action, 'same');
+assert.equal(decide(cur, null, null, '2026-10-20').action, 'skip');
+assert.equal(decide(cur, 39.99, null, '2026-10-20').action, 'skip', '>40% jump is a misread');
+const first = decide(cur, 19.99, null, '2026-10-20');
+assert.deepEqual([first.action, first.pending], ['pending', { cost: 19.99, firstSeen: '2026-10-20' }]);
+assert.equal(decide(cur, 19.99, first.pending, '2026-10-20').action, 'pending', 'same day does not confirm');
+const second = decide(cur, 19.99, first.pending, '2026-10-21');
+assert.deepEqual([second.action, second.cost], ['apply', 19.99]);
+assert.equal(decide(cur, 20.99, first.pending, '2026-10-21').pending.cost, 20.99, 'a different number restarts the wait');
+assert.equal(decide(cur, 17.99, first.pending, '2026-10-21').pending, null, 'back to the old price clears it');
+assert.deepEqual(parseReply('Here you go: {"plans":[{"plan":"Standard","billing":"monthly","cost":19.99}]} thanks').plans[0].cost, 19.99);
+assert.equal(parseReply('no json here'), null);
+const ids = ['netflix', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+const week = new Set(); for (let i = 0; i < 7; i++) servicesForToday(ids, new Date(Date.UTC(2026, 9, 20 + i))).forEach(x => week.add(x));
+assert.equal(week.size, ids.length, 'every service is checked at least weekly');
+assert.ok(servicesForToday(ids, new Date()).includes('netflix'), 'big services daily');
+console.log('decide: all checks passed');

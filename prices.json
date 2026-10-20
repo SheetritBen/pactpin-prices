@@ -1,0 +1,794 @@
+{
+ "updated": "2026-10-20",
+ "currency": "USD",
+ "services": {
+  "netflix": [
+   {
+    "plan": "Standard with ads",
+    "billing": "monthly",
+    "cost": 7.99
+   },
+   {
+    "plan": "Standard",
+    "billing": "monthly",
+    "cost": 17.99
+   },
+   {
+    "plan": "Premium",
+    "billing": "monthly",
+    "cost": 24.99
+   }
+  ],
+  "disneyplus": [
+   {
+    "plan": "Basic (with ads)",
+    "billing": "monthly",
+    "cost": 11.99
+   },
+   {
+    "plan": "Premium",
+    "billing": "monthly",
+    "cost": 18.99
+   },
+   {
+    "plan": "Premium yearly",
+    "billing": "yearly",
+    "cost": 189.99
+   }
+  ],
+  "hulu": [
+   {
+    "plan": "With ads",
+    "billing": "monthly",
+    "cost": 11.99
+   },
+   {
+    "plan": "No ads",
+    "billing": "monthly",
+    "cost": 18.99
+   }
+  ],
+  "hbomax": [
+   {
+    "plan": "Basic with ads",
+    "billing": "monthly",
+    "cost": 10.99
+   },
+   {
+    "plan": "Standard",
+    "billing": "monthly",
+    "cost": 18.49
+   },
+   {
+    "plan": "Premium",
+    "billing": "monthly",
+    "cost": 22.99
+   }
+  ],
+  "primevideo": [
+   {
+    "plan": "Prime monthly",
+    "billing": "monthly",
+    "cost": 14.99
+   },
+   {
+    "plan": "Prime yearly",
+    "billing": "yearly",
+    "cost": 139
+   },
+   {
+    "plan": "Prime Video only",
+    "billing": "monthly",
+    "cost": 8.99
+   }
+  ],
+  "appletv": [
+   {
+    "plan": "Monthly",
+    "billing": "monthly",
+    "cost": 12.99
+   }
+  ],
+  "youtube": [
+   {
+    "plan": "Individual",
+    "billing": "monthly",
+    "cost": 13.99
+   },
+   {
+    "plan": "Family",
+    "billing": "monthly",
+    "cost": 22.99
+   },
+   {
+    "plan": "Student",
+    "billing": "monthly",
+    "cost": 8.49
+   },
+   {
+    "plan": "Premium Lite",
+    "billing": "monthly",
+    "cost": 7.99
+   }
+  ],
+  "youtubetv": [
+   {
+    "plan": "Base plan",
+    "billing": "monthly",
+    "cost": 82.99
+   }
+  ],
+  "paramount": [
+   {
+    "plan": "Essential",
+    "billing": "monthly",
+    "cost": 7.99
+   },
+   {
+    "plan": "Premium",
+    "billing": "monthly",
+    "cost": 12.99
+   }
+  ],
+  "peacock": [
+   {
+    "plan": "Premium",
+    "billing": "monthly",
+    "cost": 10.99
+   },
+   {
+    "plan": "Premium Plus",
+    "billing": "monthly",
+    "cost": 16.99
+   }
+  ],
+  "espn": [
+   {
+    "plan": "Select",
+    "billing": "monthly",
+    "cost": 12.99
+   },
+   {
+    "plan": "Unlimited",
+    "billing": "monthly",
+    "cost": 29.99
+   }
+  ],
+  "crunchyroll": [
+   {
+    "plan": "Fan",
+    "billing": "monthly",
+    "cost": 7.99
+   },
+   {
+    "plan": "Mega Fan",
+    "billing": "monthly",
+    "cost": 11.99
+   },
+   {
+    "plan": "Ultimate Fan",
+    "billing": "monthly",
+    "cost": 15.99
+   }
+  ],
+  "sling": [
+   {
+    "plan": "Orange",
+    "billing": "monthly",
+    "cost": 45.99
+   },
+   {
+    "plan": "Blue",
+    "billing": "monthly",
+    "cost": 50.99
+   },
+   {
+    "plan": "Orange & Blue",
+    "billing": "monthly",
+    "cost": 60.99
+   }
+  ],
+  "spotify": [
+   {
+    "plan": "Individual",
+    "billing": "monthly",
+    "cost": 11.99
+   },
+   {
+    "plan": "Duo",
+    "billing": "monthly",
+    "cost": 16.99
+   },
+   {
+    "plan": "Family",
+    "billing": "monthly",
+    "cost": 19.99
+   },
+   {
+    "plan": "Student",
+    "billing": "monthly",
+    "cost": 5.99
+   }
+  ],
+  "applemusic": [
+   {
+    "plan": "Individual",
+    "billing": "monthly",
+    "cost": 10.99
+   },
+   {
+    "plan": "Family",
+    "billing": "monthly",
+    "cost": 16.99
+   },
+   {
+    "plan": "Student",
+    "billing": "monthly",
+    "cost": 5.99
+   }
+  ],
+  "appleone": [
+   {
+    "plan": "Individual",
+    "billing": "monthly",
+    "cost": 19.95
+   },
+   {
+    "plan": "Family",
+    "billing": "monthly",
+    "cost": 25.95
+   },
+   {
+    "plan": "Premier",
+    "billing": "monthly",
+    "cost": 37.95
+   }
+  ],
+  "amazonmusic": [
+   {
+    "plan": "Individual (Prime)",
+    "billing": "monthly",
+    "cost": 10.99
+   },
+   {
+    "plan": "Individual",
+    "billing": "monthly",
+    "cost": 11.99
+   },
+   {
+    "plan": "Family",
+    "billing": "monthly",
+    "cost": 19.99
+   }
+  ],
+  "tidal": [
+   {
+    "plan": "Individual",
+    "billing": "monthly",
+    "cost": 10.99
+   },
+   {
+    "plan": "Family",
+    "billing": "monthly",
+    "cost": 16.99
+   }
+  ],
+  "siriusxm": [
+   {
+    "plan": "Music & Entertainment",
+    "billing": "monthly",
+    "cost": 9.99
+   },
+   {
+    "plan": "All Access",
+    "billing": "monthly",
+    "cost": 23.99
+   }
+  ],
+  "audible": [
+   {
+    "plan": "Standard",
+    "billing": "monthly",
+    "cost": 8.99
+   },
+   {
+    "plan": "Premium Plus",
+    "billing": "monthly",
+    "cost": 14.95
+   }
+  ],
+  "icloud": [
+   {
+    "plan": "50 GB",
+    "billing": "monthly",
+    "cost": 0.99
+   },
+   {
+    "plan": "200 GB",
+    "billing": "monthly",
+    "cost": 2.99
+   },
+   {
+    "plan": "2 TB",
+    "billing": "monthly",
+    "cost": 9.99
+   },
+   {
+    "plan": "6 TB",
+    "billing": "monthly",
+    "cost": 29.99
+   },
+   {
+    "plan": "12 TB",
+    "billing": "monthly",
+    "cost": 59.99
+   }
+  ],
+  "googleone": [
+   {
+    "plan": "100 GB",
+    "billing": "monthly",
+    "cost": 1.99
+   },
+   {
+    "plan": "2 TB",
+    "billing": "monthly",
+    "cost": 9.99
+   },
+   {
+    "plan": "AI Pro (2 TB)",
+    "billing": "monthly",
+    "cost": 19.99
+   }
+  ],
+  "dropbox": [
+   {
+    "plan": "Plus",
+    "billing": "monthly",
+    "cost": 11.99
+   },
+   {
+    "plan": "Essentials",
+    "billing": "monthly",
+    "cost": 19.99
+   }
+  ],
+  "microsoft365": [
+   {
+    "plan": "Personal",
+    "billing": "monthly",
+    "cost": 9.99
+   },
+   {
+    "plan": "Family",
+    "billing": "monthly",
+    "cost": 12.99
+   },
+   {
+    "plan": "Personal yearly",
+    "billing": "yearly",
+    "cost": 99.99
+   },
+   {
+    "plan": "Family yearly",
+    "billing": "yearly",
+    "cost": 129.99
+   }
+  ],
+  "1password": [
+   {
+    "plan": "Individual",
+    "billing": "monthly",
+    "cost": 3.99
+   },
+   {
+    "plan": "Families",
+    "billing": "monthly",
+    "cost": 6.99
+   }
+  ],
+  "chatgpt": [
+   {
+    "plan": "Plus",
+    "billing": "monthly",
+    "cost": 20
+   },
+   {
+    "plan": "Pro",
+    "billing": "monthly",
+    "cost": 200
+   }
+  ],
+  "claude": [
+   {
+    "plan": "Pro",
+    "billing": "monthly",
+    "cost": 20
+   },
+   {
+    "plan": "Max 5x",
+    "billing": "monthly",
+    "cost": 100
+   },
+   {
+    "plan": "Max 20x",
+    "billing": "monthly",
+    "cost": 200
+   }
+  ],
+  "gemini": [
+   {
+    "plan": "AI Pro",
+    "billing": "monthly",
+    "cost": 19.99
+   }
+  ],
+  "copilot": [
+   {
+    "plan": "Pro",
+    "billing": "monthly",
+    "cost": 10
+   },
+   {
+    "plan": "Pro+",
+    "billing": "monthly",
+    "cost": 39
+   }
+  ],
+  "adobe": [
+   {
+    "plan": "Photography",
+    "billing": "monthly",
+    "cost": 19.99
+   },
+   {
+    "plan": "Acrobat Pro",
+    "billing": "monthly",
+    "cost": 19.99
+   },
+   {
+    "plan": "Creative Cloud Pro",
+    "billing": "monthly",
+    "cost": 69.99
+   }
+  ],
+  "canva": [
+   {
+    "plan": "Pro",
+    "billing": "monthly",
+    "cost": 15
+   },
+   {
+    "plan": "Pro yearly",
+    "billing": "yearly",
+    "cost": 120
+   }
+  ],
+  "notion": [
+   {
+    "plan": "Plus",
+    "billing": "monthly",
+    "cost": 12
+   },
+   {
+    "plan": "Business",
+    "billing": "monthly",
+    "cost": 24
+   }
+  ],
+  "figma": [
+   {
+    "plan": "Professional",
+    "billing": "monthly",
+    "cost": 16
+   }
+  ],
+  "linkedin": [
+   {
+    "plan": "Career",
+    "billing": "monthly",
+    "cost": 39.99
+   },
+   {
+    "plan": "Business",
+    "billing": "monthly",
+    "cost": 69.99
+   }
+  ],
+  "zoom": [
+   {
+    "plan": "Pro",
+    "billing": "monthly",
+    "cost": 15.99
+   }
+  ],
+  "xbox": [
+   {
+    "plan": "Essential",
+    "billing": "monthly",
+    "cost": 9.99
+   },
+   {
+    "plan": "Premium",
+    "billing": "monthly",
+    "cost": 14.99
+   },
+   {
+    "plan": "Ultimate",
+    "billing": "monthly",
+    "cost": 29.99
+   }
+  ],
+  "psplus": [
+   {
+    "plan": "Essential",
+    "billing": "monthly",
+    "cost": 9.99
+   },
+   {
+    "plan": "Extra",
+    "billing": "monthly",
+    "cost": 14.99
+   },
+   {
+    "plan": "Premium",
+    "billing": "monthly",
+    "cost": 17.99
+   }
+  ],
+  "nintendo": [
+   {
+    "plan": "Individual",
+    "billing": "monthly",
+    "cost": 3.99
+   },
+   {
+    "plan": "Individual yearly",
+    "billing": "yearly",
+    "cost": 19.99
+   },
+   {
+    "plan": "+ Expansion Pack",
+    "billing": "yearly",
+    "cost": 49.99
+   }
+  ],
+  "applearcade": [
+   {
+    "plan": "Monthly",
+    "billing": "monthly",
+    "cost": 6.99
+   }
+  ],
+  "twitch": [
+   {
+    "plan": "Turbo",
+    "billing": "monthly",
+    "cost": 11.99
+   }
+  ],
+  "nyt": [
+   {
+    "plan": "Digital",
+    "billing": "monthly",
+    "cost": 17
+   },
+   {
+    "plan": "All Access",
+    "billing": "monthly",
+    "cost": 25
+   }
+  ],
+  "wsj": [
+   {
+    "plan": "Digital",
+    "billing": "monthly",
+    "cost": 38.99
+   }
+  ],
+  "wapo": [
+   {
+    "plan": "Digital",
+    "billing": "monthly",
+    "cost": 12
+   }
+  ],
+  "kindle": [
+   {
+    "plan": "Monthly",
+    "billing": "monthly",
+    "cost": 11.99
+   }
+  ],
+  "substack": [
+   {
+    "plan": "Paid subscription",
+    "billing": "monthly",
+    "cost": 8
+   }
+  ],
+  "peloton": [
+   {
+    "plan": "App One",
+    "billing": "monthly",
+    "cost": 15.99
+   },
+   {
+    "plan": "App+",
+    "billing": "monthly",
+    "cost": 28.99
+   },
+   {
+    "plan": "All-Access",
+    "billing": "monthly",
+    "cost": 49.99
+   }
+  ],
+  "strava": [
+   {
+    "plan": "Monthly",
+    "billing": "monthly",
+    "cost": 11.99
+   },
+   {
+    "plan": "Yearly",
+    "billing": "yearly",
+    "cost": 79.99
+   }
+  ],
+  "applefitness": [
+   {
+    "plan": "Monthly",
+    "billing": "monthly",
+    "cost": 9.99
+   },
+   {
+    "plan": "Yearly",
+    "billing": "yearly",
+    "cost": 79.99
+   }
+  ],
+  "headspace": [
+   {
+    "plan": "Monthly",
+    "billing": "monthly",
+    "cost": 12.99
+   },
+   {
+    "plan": "Yearly",
+    "billing": "yearly",
+    "cost": 69.99
+   }
+  ],
+  "calm": [
+   {
+    "plan": "Monthly",
+    "billing": "monthly",
+    "cost": 16.99
+   },
+   {
+    "plan": "Yearly",
+    "billing": "yearly",
+    "cost": 79.99
+   }
+  ],
+  "duolingo": [
+   {
+    "plan": "Super",
+    "billing": "monthly",
+    "cost": 12.99
+   },
+   {
+    "plan": "Super yearly",
+    "billing": "yearly",
+    "cost": 59.99
+   },
+   {
+    "plan": "Max",
+    "billing": "monthly",
+    "cost": 29.99
+   }
+  ],
+  "planetfitness": [
+   {
+    "plan": "Classic",
+    "billing": "monthly",
+    "cost": 15
+   },
+   {
+    "plan": "Black Card",
+    "billing": "monthly",
+    "cost": 29.99
+   }
+  ],
+  "dashpass": [
+   {
+    "plan": "Monthly",
+    "billing": "monthly",
+    "cost": 9.99
+   },
+   {
+    "plan": "Yearly",
+    "billing": "yearly",
+    "cost": 96
+   }
+  ],
+  "uberone": [
+   {
+    "plan": "Monthly",
+    "billing": "monthly",
+    "cost": 9.99
+   },
+   {
+    "plan": "Yearly",
+    "billing": "yearly",
+    "cost": 96
+   }
+  ],
+  "instacart": [
+   {
+    "plan": "Monthly",
+    "billing": "monthly",
+    "cost": 9.99
+   },
+   {
+    "plan": "Yearly",
+    "billing": "yearly",
+    "cost": 99
+   }
+  ],
+  "walmartplus": [
+   {
+    "plan": "Monthly",
+    "billing": "monthly",
+    "cost": 12.95
+   },
+   {
+    "plan": "Yearly",
+    "billing": "yearly",
+    "cost": 98
+   }
+  ],
+  "costco": [
+   {
+    "plan": "Gold Star",
+    "billing": "yearly",
+    "cost": 65
+   },
+   {
+    "plan": "Executive",
+    "billing": "yearly",
+    "cost": 130
+   }
+  ],
+  "samsclub": [
+   {
+    "plan": "Club",
+    "billing": "yearly",
+    "cost": 50
+   },
+   {
+    "plan": "Plus",
+    "billing": "yearly",
+    "cost": 110
+   }
+  ],
+  "aaa": [
+   {
+    "plan": "Classic",
+    "billing": "yearly",
+    "cost": 64
+   },
+   {
+    "plan": "Plus",
+    "billing": "yearly",
+    "cost": 99
+   },
+   {
+    "plan": "Premier",
+    "billing": "yearly",
+    "cost": 129
+   }
+  ]
+ }
+}

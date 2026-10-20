@@ -1,0 +1,238 @@
+{
+ "netflix": {
+  "name": "Netflix",
+  "domain": "netflix.com"
+ },
+ "disneyplus": {
+  "name": "Disney+",
+  "domain": "disneyplus.com"
+ },
+ "hulu": {
+  "name": "Hulu",
+  "domain": "hulu.com"
+ },
+ "hbomax": {
+  "name": "HBO Max",
+  "domain": "hbomax.com"
+ },
+ "primevideo": {
+  "name": "Amazon Prime",
+  "domain": "amazon.com"
+ },
+ "appletv": {
+  "name": "Apple TV",
+  "domain": "tv.apple.com"
+ },
+ "youtube": {
+  "name": "YouTube Premium",
+  "domain": "youtube.com"
+ },
+ "youtubetv": {
+  "name": "YouTube TV",
+  "domain": "tv.youtube.com"
+ },
+ "paramount": {
+  "name": "Paramount+",
+  "domain": "paramountplus.com"
+ },
+ "peacock": {
+  "name": "Peacock",
+  "domain": "peacocktv.com"
+ },
+ "espn": {
+  "name": "ESPN",
+  "domain": "espn.com"
+ },
+ "crunchyroll": {
+  "name": "Crunchyroll",
+  "domain": "crunchyroll.com"
+ },
+ "sling": {
+  "name": "Sling TV",
+  "domain": "sling.com"
+ },
+ "spotify": {
+  "name": "Spotify",
+  "domain": "spotify.com"
+ },
+ "applemusic": {
+  "name": "Apple Music",
+  "domain": "music.apple.com"
+ },
+ "appleone": {
+  "name": "Apple One",
+  "domain": "apple.com"
+ },
+ "amazonmusic": {
+  "name": "Amazon Music Unlimited",
+  "domain": "music.amazon.com"
+ },
+ "tidal": {
+  "name": "Tidal",
+  "domain": "tidal.com"
+ },
+ "siriusxm": {
+  "name": "SiriusXM",
+  "domain": "siriusxm.com"
+ },
+ "audible": {
+  "name": "Audible",
+  "domain": "audible.com"
+ },
+ "icloud": {
+  "name": "iCloud+",
+  "domain": "icloud.com"
+ },
+ "googleone": {
+  "name": "Google One",
+  "domain": "one.google.com"
+ },
+ "dropbox": {
+  "name": "Dropbox",
+  "domain": "dropbox.com"
+ },
+ "microsoft365": {
+  "name": "Microsoft 365",
+  "domain": "microsoft.com"
+ },
+ "1password": {
+  "name": "1Password",
+  "domain": "1password.com"
+ },
+ "chatgpt": {
+  "name": "ChatGPT",
+  "domain": "chatgpt.com"
+ },
+ "claude": {
+  "name": "Claude",
+  "domain": "claude.ai"
+ },
+ "gemini": {
+  "name": "Google AI Pro",
+  "domain": "gemini.google.com"
+ },
+ "copilot": {
+  "name": "GitHub Copilot",
+  "domain": "github.com"
+ },
+ "adobe": {
+  "name": "Adobe Creative Cloud",
+  "domain": "adobe.com"
+ },
+ "canva": {
+  "name": "Canva",
+  "domain": "canva.com"
+ },
+ "notion": {
+  "name": "Notion",
+  "domain": "notion.so"
+ },
+ "figma": {
+  "name": "Figma",
+  "domain": "figma.com"
+ },
+ "linkedin": {
+  "name": "LinkedIn Premium",
+  "domain": "linkedin.com"
+ },
+ "zoom": {
+  "name": "Zoom",
+  "domain": "zoom.us"
+ },
+ "xbox": {
+  "name": "Xbox Game Pass",
+  "domain": "xbox.com"
+ },
+ "psplus": {
+  "name": "PlayStation Plus",
+  "domain": "playstation.com"
+ },
+ "nintendo": {
+  "name": "Nintendo Switch Online",
+  "domain": "nintendo.com"
+ },
+ "applearcade": {
+  "name": "Apple Arcade",
+  "domain": "apple.com"
+ },
+ "twitch": {
+  "name": "Twitch Turbo",
+  "domain": "twitch.tv"
+ },
+ "nyt": {
+  "name": "New York Times",
+  "domain": "nytimes.com"
+ },
+ "wsj": {
+  "name": "Wall Street Journal",
+  "domain": "wsj.com"
+ },
+ "wapo": {
+  "name": "Washington Post",
+  "domain": "washingtonpost.com"
+ },
+ "kindle": {
+  "name": "Kindle Unlimited",
+  "domain": "amazon.com"
+ },
+ "substack": {
+  "name": "Substack",
+  "domain": "substack.com"
+ },
+ "peloton": {
+  "name": "Peloton",
+  "domain": "onepeloton.com"
+ },
+ "strava": {
+  "name": "Strava",
+  "domain": "strava.com"
+ },
+ "applefitness": {
+  "name": "Apple Fitness+",
+  "domain": "apple.com"
+ },
+ "headspace": {
+  "name": "Headspace",
+  "domain": "headspace.com"
+ },
+ "calm": {
+  "name": "Calm",
+  "domain": "calm.com"
+ },
+ "duolingo": {
+  "name": "Duolingo",
+  "domain": "duolingo.com"
+ },
+ "planetfitness": {
+  "name": "Planet Fitness",
+  "domain": "planetfitness.com"
+ },
+ "dashpass": {
+  "name": "DoorDash DashPass",
+  "domain": "doordash.com"
+ },
+ "uberone": {
+  "name": "Uber One",
+  "domain": "uber.com"
+ },
+ "instacart": {
+  "name": "Instacart+",
+  "domain": "instacart.com"
+ },
+ "walmartplus": {
+  "name": "Walmart+",
+  "domain": "walmart.com"
+ },
+ "costco": {
+  "name": "Costco",
+  "domain": "costco.com"
+ },
+ "samsclub": {
+  "name": "Sam's Club",
+  "domain": "samsclub.com"
+ },
+ "aaa": {
+  "name": "AAA",
+  "domain": "aaa.com"
+ }
+}
