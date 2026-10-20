@@ -6,7 +6,13 @@ import { decide, keyOf, servicesForToday, parseReply } from './decide.mjs';
 
 const KEY = process.env.ANTHROPIC_API_KEY;
 const MODEL = process.env.MODEL || 'claude-haiku-5-5';
-if (!KEY) { console.error('ANTHROPIC_API_KEY is not set (repo Settings → Secrets → Actions)'); process.exit(1); }
+// No key yet: skip quietly (a failing daily run would email the owner every day)
+if (!KEY) {
+  const msg = 'Skipped: add the ANTHROPIC_API_KEY repo secret (Settings → Secrets and variables → Actions) to start daily price checks.';
+  console.log(msg);
+  if (process.env.GITHUB_STEP_SUMMARY) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, msg + '\n');
+  process.exit(0);
+}
 
 const prices = JSON.parse(fs.readFileSync('prices.json', 'utf8'));
 const pending = fs.existsSync('pending.json') ? JSON.parse(fs.readFileSync('pending.json', 'utf8')) : {};
