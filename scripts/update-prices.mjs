@@ -10,6 +10,7 @@ const MODEL = process.env.MODEL || 'claude-haiku-5-5';
 if (!KEY) {
   const msg = 'Skipped: add the ANTHROPIC_API_KEY repo secret (Settings → Secrets and variables → Actions) to start daily price checks.';
   console.log(msg);
+  fs.writeFileSync('last-run.md', msg + '\n');   // the workflow commits this file every run
   if (process.env.GITHUB_STEP_SUMMARY) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, msg + '\n');
   process.exit(0);
 }
