@@ -1,0 +1,462 @@
+{
+ "asOf": "2026-10-21",
+ "source": "US State Department",
+ "times": {
+  "routine": 6,
+  "expedited": 3,
+  "mailIn": 2,
+  "mailOut": 2
+ },
+ "countries": {
+  "MX": {
+   "name": "Mexico",
+   "rule": "entry",
+   "months": 0,
+   "pages": 1,
+   "note": "",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/mexico.html",
+   "confirmed": true
+  },
+  "CA": {
+   "name": "Canada",
+   "rule": "entry",
+   "months": 0,
+   "pages": 1,
+   "note": "",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Canada.html",
+   "confirmed": true
+  },
+  "GB": {
+   "name": "United Kingdom",
+   "rule": "stay",
+   "months": 0,
+   "pages": 1,
+   "note": "ETA required before you fly (UK ETA)",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/united-kingdom.html",
+   "confirmed": true
+  },
+  "IE": {
+   "name": "Ireland",
+   "rule": "stay",
+   "months": 0,
+   "pages": 1,
+   "note": "",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Ireland.html",
+   "confirmed": true
+  },
+  "FR": {
+   "name": "France",
+   "rule": "departure",
+   "months": 3,
+   "pages": 1,
+   "note": "Passport must be issued within the last 10 years (Schengen)",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/france.html",
+   "confirmed": true
+  },
+  "IT": {
+   "name": "Italy",
+   "rule": "departure",
+   "months": 3,
+   "pages": 2,
+   "note": "Passport must be issued within the last 10 years (Schengen)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Italy.html",
+   "confirmed": true
+  },
+  "ES": {
+   "name": "Spain",
+   "rule": "departure",
+   "months": 3,
+   "pages": 1,
+   "note": "Passport must be issued within the last 10 years (Schengen)",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/spain.html",
+   "confirmed": true
+  },
+  "DE": {
+   "name": "Germany",
+   "rule": "departure",
+   "months": 3,
+   "pages": 2,
+   "note": "Passport must be issued within the last 10 years (Schengen)",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/germany.html",
+   "confirmed": true
+  },
+  "GR": {
+   "name": "Greece",
+   "rule": "departure",
+   "months": 3,
+   "pages": 1,
+   "note": "Passport must be issued within the last 10 years (Schengen)",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/greece.html",
+   "confirmed": true
+  },
+  "PT": {
+   "name": "Portugal",
+   "rule": "departure",
+   "months": 3,
+   "pages": 2,
+   "note": "Passport must be issued within the last 10 years (Schengen)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Portugal.html",
+   "confirmed": true
+  },
+  "NL": {
+   "name": "Netherlands",
+   "rule": "departure",
+   "months": 3,
+   "pages": 2,
+   "note": "Passport must be issued within the last 10 years (Schengen)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Netherlands.html",
+   "confirmed": true
+  },
+  "CH": {
+   "name": "Switzerland",
+   "rule": "departure",
+   "months": 3,
+   "pages": 0,
+   "note": "Passport must be issued within the last 10 years (Schengen)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Switzerland.html",
+   "confirmed": false
+  },
+  "AT": {
+   "name": "Austria",
+   "rule": "departure",
+   "months": 3,
+   "pages": 2,
+   "note": "Passport must be issued within the last 10 years (Schengen)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Austria.html",
+   "confirmed": true
+  },
+  "IS": {
+   "name": "Iceland",
+   "rule": "departure",
+   "months": 3,
+   "pages": 2,
+   "note": "Passport must be issued within the last 10 years (Schengen)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Iceland.html",
+   "confirmed": true
+  },
+  "HR": {
+   "name": "Croatia",
+   "rule": "departure",
+   "months": 3,
+   "pages": 1,
+   "note": "Passport must be issued within the last 10 years (Schengen)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Croatia.html",
+   "confirmed": true
+  },
+  "CZ": {
+   "name": "Czechia",
+   "rule": "departure",
+   "months": 3,
+   "pages": 2,
+   "note": "Passport must be issued within the last 10 years (Schengen)",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/czechia.html",
+   "confirmed": true
+  },
+  "BE": {
+   "name": "Belgium",
+   "rule": "departure",
+   "months": 3,
+   "pages": 2,
+   "note": "Passport must be issued within the last 10 years (Schengen)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Belgium.html",
+   "confirmed": true
+  },
+  "DK": {
+   "name": "Denmark",
+   "rule": "departure",
+   "months": 3,
+   "pages": 1,
+   "note": "Passport must be issued within the last 10 years (Schengen)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Denmark.html",
+   "confirmed": true
+  },
+  "SE": {
+   "name": "Sweden",
+   "rule": "departure",
+   "months": 3,
+   "pages": 1,
+   "note": "Passport must be issued within the last 10 years (Schengen)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Sweden.html",
+   "confirmed": true
+  },
+  "NO": {
+   "name": "Norway",
+   "rule": "departure",
+   "months": 3,
+   "pages": 2,
+   "note": "Passport must be issued within the last 10 years (Schengen)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Norway.html",
+   "confirmed": true
+  },
+  "IL": {
+   "name": "Israel",
+   "rule": "arrival",
+   "months": 3,
+   "pages": 1,
+   "note": "ETA-IL required before you fly (apply 72+ hrs ahead)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/IsraeltheWestBankandGaza.html",
+   "confirmed": true
+  },
+  "TR": {
+   "name": "Türkiye",
+   "rule": "arrival",
+   "months": 6,
+   "pages": 1,
+   "note": "",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/turkey.html",
+   "confirmed": true
+  },
+  "AE": {
+   "name": "United Arab Emirates",
+   "rule": "arrival",
+   "months": 6,
+   "pages": 1,
+   "note": "",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/UnitedArabEmirates.html",
+   "confirmed": true
+  },
+  "EG": {
+   "name": "Egypt",
+   "rule": "arrival",
+   "months": 6,
+   "pages": 1,
+   "note": "Visa required: e-Visa, or visa on arrival paid in exact USD cash",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Egypt.html",
+   "confirmed": true
+  },
+  "MA": {
+   "name": "Morocco",
+   "rule": "arrival",
+   "months": 6,
+   "pages": 1,
+   "note": "",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Morocco.html",
+   "confirmed": true
+  },
+  "JP": {
+   "name": "Japan",
+   "rule": "stay",
+   "months": 0,
+   "pages": 1,
+   "note": "",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/japan.html",
+   "confirmed": true
+  },
+  "KR": {
+   "name": "South Korea",
+   "rule": "entry",
+   "months": 0,
+   "pages": 0,
+   "note": "K-ETA required from Jan 1, 2027",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/destination.kor.html",
+   "confirmed": true
+  },
+  "CN": {
+   "name": "China",
+   "rule": "arrival",
+   "months": 6,
+   "pages": 2,
+   "note": "Visa required (240-hr transit exemption only)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/China.html",
+   "confirmed": true
+  },
+  "TH": {
+   "name": "Thailand",
+   "rule": "arrival",
+   "months": 6,
+   "pages": 0,
+   "note": "Free Thailand Digital Arrival Card (TDAC) within 3 days of arrival",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/thailand.html",
+   "confirmed": true
+  },
+  "VN": {
+   "name": "Vietnam",
+   "rule": "arrival",
+   "months": 6,
+   "pages": 2,
+   "note": "E-visa required before travel (official site only)",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/vietnam.html",
+   "confirmed": true
+  },
+  "ID": {
+   "name": "Indonesia",
+   "rule": "arrival",
+   "months": 6,
+   "pages": 2,
+   "note": "Visa required: e-visa online, or paid visa on arrival",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/indonesia.html",
+   "confirmed": true
+  },
+  "PH": {
+   "name": "Philippines",
+   "rule": "departure",
+   "months": 6,
+   "pages": 1,
+   "note": "Register on eTravel within 72 hrs before arrival",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Philippines.html",
+   "confirmed": true
+  },
+  "SG": {
+   "name": "Singapore",
+   "rule": "departure",
+   "months": 6,
+   "pages": 1,
+   "note": "SG Arrival Card online within 3 days before arrival",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Singapore.html",
+   "confirmed": true
+  },
+  "IN": {
+   "name": "India",
+   "rule": "arrival",
+   "months": 6,
+   "pages": 2,
+   "note": "e-Visa or visa required before travel",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/India.html",
+   "confirmed": true
+  },
+  "AU": {
+   "name": "Australia",
+   "rule": "entry",
+   "months": 0,
+   "pages": 1,
+   "note": "ETA required before you fly (Australian ETA app)",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Australia.html",
+   "confirmed": true
+  },
+  "NZ": {
+   "name": "New Zealand",
+   "rule": "departure",
+   "months": 3,
+   "pages": 1,
+   "note": "NZeTA required before you fly",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/NewZealand.html",
+   "confirmed": true
+  },
+  "ZA": {
+   "name": "South Africa",
+   "rule": "departure",
+   "months": 1,
+   "pages": 2,
+   "note": "The 2 blank pages must be side by side (not endorsement pages)",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-africa.html",
+   "confirmed": true
+  },
+  "BR": {
+   "name": "Brazil",
+   "rule": "arrival",
+   "months": 1,
+   "pages": 1,
+   "note": "eVisa required before travel",
+   "url": "https://travel.state.gov/en/international-travel/travel-advisories/brazil.html",
+   "confirmed": false
+  },
+  "AR": {
+   "name": "Argentina",
+   "rule": "entry",
+   "months": 0,
+   "pages": 1,
+   "note": "",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Argentina.html",
+   "confirmed": true
+  },
+  "PE": {
+   "name": "Peru",
+   "rule": "arrival",
+   "months": 6,
+   "pages": 1,
+   "note": "",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Peru.html",
+   "confirmed": true
+  },
+  "CO": {
+   "name": "Colombia",
+   "rule": "stay",
+   "months": 0,
+   "pages": 1,
+   "note": "Free Check-Mig form 1–72 hrs before your flight",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Colombia.html",
+   "confirmed": true
+  },
+  "CR": {
+   "name": "Costa Rica",
+   "rule": "stay",
+   "months": 0,
+   "pages": 1,
+   "note": "",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/CostaRica.html",
+   "confirmed": true
+  },
+  "DO": {
+   "name": "Dominican Republic",
+   "rule": "arrival",
+   "months": 6,
+   "pages": 0,
+   "note": "e-Ticket entry/exit form before travel",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/DominicanRepublic.html",
+   "confirmed": true
+  },
+  "JM": {
+   "name": "Jamaica",
+   "rule": "stay",
+   "months": 0,
+   "pages": 0,
+   "note": "Electronic C5 immigration/customs card before travel",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Jamaica.html",
+   "confirmed": true
+  },
+  "BS": {
+   "name": "Bahamas",
+   "rule": "stay",
+   "months": 0,
+   "pages": 2,
+   "note": "",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Bahamas.html",
+   "confirmed": true
+  },
+  "AW": {
+   "name": "Aruba",
+   "rule": "stay",
+   "months": 0,
+   "pages": 1,
+   "note": "Online ED card before arrival; $20 sustainability fee",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Aruba.html",
+   "confirmed": true
+  },
+  "BZ": {
+   "name": "Belize",
+   "rule": "stay",
+   "months": 0,
+   "pages": 1,
+   "note": "",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Belize.html",
+   "confirmed": true
+  },
+  "PA": {
+   "name": "Panama",
+   "rule": "arrival",
+   "months": 3,
+   "pages": 1,
+   "note": "",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Panama.html",
+   "confirmed": true
+  },
+  "EC": {
+   "name": "Ecuador",
+   "rule": "arrival",
+   "months": 6,
+   "pages": 1,
+   "note": "",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Ecuador.html",
+   "confirmed": true
+  },
+  "CL": {
+   "name": "Chile",
+   "rule": "stay",
+   "months": 0,
+   "pages": 1,
+   "note": "",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Chile.html",
+   "confirmed": true
+  }
+ }
+}
