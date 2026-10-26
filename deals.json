@@ -7,6 +7,9 @@
    "plan": "Premium Student",
    "price": 6.99,
    "includes": "Hulu (With Ads)",
+   "covers": [
+    "hulu"
+   ],
    "verify": "SheerID",
    "limits": "18+, US college; 12 months, re-verify up to 3 times",
    "url": "https://www.spotify.com/us/student/"
@@ -16,6 +19,9 @@
    "plan": "Student",
    "price": 6.99,
    "includes": "Apple TV at no extra cost",
+   "covers": [
+    "appletv"
+   ],
    "verify": "UNiDAYS",
    "limits": "College students, up to 4 years; no Family Sharing",
    "url": "https://www.apple.com/apple-music/"
@@ -52,6 +58,9 @@
    "plan": "Disney+, Hulu Bundle Student",
    "price": 6.49,
    "includes": "Hulu (With Ads)",
+   "covers": [
+    "hulu"
+   ],
    "verify": "SheerID",
    "limits": "US 18+, college; re-verify yearly; billed by Disney directly",
    "url": "https://www.disneyplus.com/welcome/disney-hulu-student-discount"
