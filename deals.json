@@ -1,6 +1,6 @@
 {
  "asOf": "2026-10-26",
- "note": "Student plans + bundles for PactPin \"Deals for you\". id = catalog service id. price = USD (null = not shown publicly → \"See page\"); billing defaults to monthly. until = YYYY-MM-DD the offer ends (hidden after). unconfirmed = price not on the official page. perk = phone carrier.",
+ "note": "Discounts for PactPin \"See deals that may apply to you\". student = student plans; offers = other groups (group: teacher | military | assistance | youngadult | senior | carrier | family; carrier = T-Mobile/Verizon/AT&T; people = family plan size). id = catalog service id. price = USD (null = not shown publicly → \"See page\"); billing defaults to monthly. until = YYYY-MM-DD the offer ends (hidden after). unconfirmed = price not on the official page. bundles: perk = phone carrier.",
  "student": [
   {
    "id": "spotify",
@@ -325,6 +325,395 @@
    ],
    "perk": "Verizon",
    "url": "https://www.verizon.com/support/netflix-max-perk-faqs/"
+  }
+ ],
+ "offers": [
+  {
+   "group": "teacher",
+   "id": "headspace",
+   "plan": "Headspace for Educators",
+   "price": 0,
+   "includes": "Full Headspace subscription",
+   "verify": "School lookup on Headspace's educator sign-up",
+   "limits": "US K-12 teachers, staff and administrators",
+   "url": "https://www.headspace.com/educators"
+  },
+  {
+   "group": "teacher",
+   "id": "canva",
+   "plan": "Canva for Education",
+   "price": 0,
+   "includes": "Premium features + classroom tools",
+   "verify": "Canva teacher verification",
+   "limits": "K-12 teachers and their students; not college",
+   "url": "https://www.canva.com/education/teachers/"
+  },
+  {
+   "group": "teacher",
+   "id": "adobe",
+   "plan": "Creative Cloud Pro (Teachers)",
+   "price": 19.99,
+   "includes": "Photoshop, Illustrator, Acrobat Pro, Premiere + 20 apps",
+   "verify": "School email or proof of employment",
+   "limits": "First-year price on an annual plan, then $39.99/mo",
+   "url": "https://www.adobe.com/products/pricing-info/ccste-pricing-info.html"
+  },
+  {
+   "group": "teacher",
+   "id": "figma",
+   "plan": "Figma for Education",
+   "price": 0,
+   "includes": "",
+   "verify": "Education application with a school email",
+   "limits": "Classroom educators; re-apply every year",
+   "url": "https://help.figma.com/hc/en-us/articles/360041061214"
+  },
+  {
+   "group": "teacher",
+   "id": "peloton",
+   "plan": "App One (Educators)",
+   "price": 9.99,
+   "includes": "Or App+ $19.99/mo",
+   "verify": "ID.me, yearly",
+   "limits": "K-12 teachers and professors; app membership only",
+   "url": "https://www.onepeloton.com/offers/specialpricing/educators"
+  },
+  {
+   "group": "teacher",
+   "id": "peacock",
+   "plan": "Premium (Teacher)",
+   "price": 6.99,
+   "includes": "12 months, then regular price",
+   "verify": "SheerID, yearly",
+   "limits": "18+, works at a US K-12 school or university",
+   "url": "https://www.peacocktv.com/teacher"
+  },
+  {
+   "group": "military",
+   "id": "peloton",
+   "plan": "App One (Military)",
+   "price": 9.99,
+   "includes": "Or App+ $19.99/mo; hardware discounts",
+   "verify": "ID.me",
+   "limits": "Active duty, reserve, veterans, retirees",
+   "url": "https://www.onepeloton.com/offers/specialpricing/military"
+  },
+  {
+   "group": "military",
+   "id": "siriusxm",
+   "plan": "Military discount — 25% off",
+   "price": null,
+   "includes": "25% off your plan for as long as you keep it",
+   "verify": "Documents reviewed by SiriusXM",
+   "limits": "Active duty, reserve, veterans, retirees, spouses and dependents",
+   "url": "https://www.siriusxm.com/military-discount"
+  },
+  {
+   "group": "military",
+   "id": "peacock",
+   "plan": "Premium (Military)",
+   "price": 6.99,
+   "includes": "12 months, then regular price",
+   "verify": "SheerID, yearly",
+   "limits": "18+; active duty, Guard, Reserve, veterans, retirees",
+   "url": "https://www.peacocktv.com/military"
+  },
+  {
+   "group": "military",
+   "id": "paramount",
+   "plan": "Military discount — 50% off",
+   "price": null,
+   "includes": "50% off Essential or Premium",
+   "verify": "SheerID",
+   "limits": "Active duty, veterans, retirees, Guard/Reserve, spouses and dependents",
+   "url": "https://www.paramountplus.com/military/",
+   "unconfirmed": true,
+   "until": "2026-12-31"
+  },
+  {
+   "group": "assistance",
+   "id": "primevideo",
+   "plan": "Prime Access",
+   "price": 6.99,
+   "includes": "Full Prime; 30-day trial",
+   "verify": "EBT card, Medicaid letter or other proof; yearly",
+   "limits": "SNAP/EBT, Medicaid, WIC, SSI, TANF, LIHEAP; up to 4 years",
+   "url": "https://www.amazon.com/getprimeaccess"
+  },
+  {
+   "group": "assistance",
+   "id": "walmartplus",
+   "plan": "Walmart+ Assist",
+   "price": 6.47,
+   "includes": "Full Walmart+ incl. Paramount+ Essential; or $49/yr",
+   "verify": "SheerID; yearly",
+   "limits": "SNAP, WIC, Medicaid, SSI, TANF, LIHEAP and more",
+   "url": "https://www.walmart.com/plus/assist"
+  },
+  {
+   "group": "assistance",
+   "id": "instacart",
+   "plan": "Instacart+ for EBT SNAP",
+   "price": 4.99,
+   "includes": "Free delivery over $35, Peacock Premium",
+   "verify": "An EBT SNAP order on Instacart",
+   "limits": "EBT order in the past 6 months; 12 months, then $9.99/mo",
+   "url": "https://www.instacart.com/plus-ebt"
+  },
+  {
+   "group": "assistance",
+   "id": "dashpass",
+   "plan": "DashPass for SNAP/EBT",
+   "price": 4.99,
+   "includes": "$0 delivery, lower service fees",
+   "verify": "An order with a SNAP/EBT card",
+   "limits": "12 months, then regular price",
+   "url": "https://help.doordash.com/consumers/s/article/SNAP-EBT-DashPass-Plan"
+  },
+  {
+   "group": "assistance",
+   "id": "uberone",
+   "plan": "Uber One free trial (EBT)",
+   "price": 0,
+   "includes": "Uber One during the promo, then regular price",
+   "verify": "Link an EBT card in Uber Eats",
+   "limits": "Promotional period",
+   "url": "https://about.ubereats.com/us/en/how-it-works/snap-ebt/"
+  },
+  {
+   "group": "youngadult",
+   "id": "primevideo",
+   "plan": "Prime for Young Adults",
+   "price": 7.49,
+   "includes": "Full Prime; or $69/yr; 6-month free trial",
+   "verify": "ID (age) or .edu email",
+   "limits": "Ages 18–24, no student status needed",
+   "url": "https://www.aboutamazon.com/news/retail/amazon-prime-for-young-adults"
+  },
+  {
+   "group": "youngadult",
+   "id": "peacock",
+   "plan": "Premium (Young adult)",
+   "price": 5.99,
+   "includes": "12 months, then regular price",
+   "verify": "SheerID age check, yearly",
+   "limits": "Ages 18–24",
+   "url": "https://www.peacocktv.com/young-adult"
+  },
+  {
+   "group": "senior",
+   "id": "peloton",
+   "plan": "App One (65+)",
+   "price": 9.99,
+   "includes": "Or App+ $19.99/mo",
+   "verify": "ID.me, yearly",
+   "limits": "65+, US; app membership only",
+   "url": "https://www.onepeloton.com/offers/specialpricing/seniors"
+  },
+  {
+   "group": "senior",
+   "id": "walmartplus",
+   "plan": "Walmart+ for AARP members",
+   "price": 58,
+   "billing": "yearly",
+   "includes": "$40 off the yearly plan",
+   "verify": "Active AARP membership",
+   "limits": "AARP members (50+); yearly plan only",
+   "url": "https://www.aarp.org/membership/benefits/shopping/walmart-plus/"
+  },
+  {
+   "group": "carrier",
+   "carrier": "T-Mobile",
+   "id": "appletv",
+   "plan": "Apple TV via T-Mobile",
+   "price": 3,
+   "includes": "Apple TV incl. MLS",
+   "verify": "Activate in T-Life",
+   "limits": "Experience More / Beyond lines",
+   "url": "https://www.t-mobile.com/offers/apple-tv-plus-deal"
+  },
+  {
+   "group": "carrier",
+   "carrier": "Verizon",
+   "id": "appleone",
+   "plan": "Apple One via Verizon",
+   "price": 10,
+   "includes": "Apple One Individual",
+   "verify": "Add in My Verizon",
+   "limits": "myPlan / myHome lines",
+   "url": "https://www.verizon.com/support/plan-perks/"
+  },
+  {
+   "group": "carrier",
+   "carrier": "Verizon",
+   "id": "applemusic",
+   "plan": "Apple Music Family via Verizon",
+   "price": 10,
+   "includes": "Apple Music for up to 6",
+   "verify": "Add in My Verizon",
+   "limits": "myPlan / myHome lines",
+   "url": "https://www.verizon.com/support/plan-perks/"
+  },
+  {
+   "group": "carrier",
+   "carrier": "Verizon",
+   "id": "youtube",
+   "plan": "YouTube Premium via Verizon",
+   "price": null,
+   "includes": "YouTube Premium Individual",
+   "verify": "Add in My Verizon",
+   "limits": "Select mobile and home plans",
+   "url": "https://www.verizon.com/support/plan-perks/"
+  },
+  {
+   "group": "carrier",
+   "carrier": "Verizon",
+   "id": "googleone",
+   "plan": "Google AI Pro via Verizon",
+   "price": null,
+   "includes": "Google One storage + Gemini",
+   "verify": "Add in My Verizon",
+   "limits": "Select mobile and home plans",
+   "url": "https://www.verizon.com/support/plan-perks/"
+  },
+  {
+   "group": "family",
+   "id": "spotify",
+   "plan": "Premium Family",
+   "price": 21.99,
+   "people": 6,
+   "includes": "6 Premium accounts",
+   "verify": "Same home address",
+   "limits": "Members live together",
+   "url": "https://www.spotify.com/us/premium/"
+  },
+  {
+   "group": "family",
+   "id": "spotify",
+   "plan": "Premium Duo",
+   "price": 18.99,
+   "people": 2,
+   "includes": "2 Premium accounts",
+   "verify": "Same home address",
+   "limits": "2 people at the same address",
+   "url": "https://www.spotify.com/us/premium/"
+  },
+  {
+   "group": "family",
+   "id": "youtube",
+   "plan": "Premium Family",
+   "price": 26.99,
+   "people": 6,
+   "includes": "Premium + YouTube Music",
+   "verify": "Same household",
+   "limits": "Manager + 5 at the same address",
+   "url": "https://support.google.com/youtube/answer/12156000",
+   "unconfirmed": true
+  },
+  {
+   "group": "family",
+   "id": "appleone",
+   "plan": "Apple One Family",
+   "price": 27.95,
+   "people": 6,
+   "includes": "Apple TV, Music, Arcade, 200GB iCloud+",
+   "verify": "Family Sharing",
+   "limits": "Organizer + 5",
+   "url": "https://www.apple.com/apple-one/"
+  },
+  {
+   "group": "family",
+   "id": "applemusic",
+   "plan": "Apple Music Family",
+   "price": 19.99,
+   "people": 6,
+   "includes": "Apple Music for up to 6",
+   "verify": "Family Sharing",
+   "limits": "Organizer + 5",
+   "url": "https://www.apple.com/apple-music/"
+  },
+  {
+   "group": "family",
+   "id": "icloud",
+   "plan": "iCloud+ Family Sharing",
+   "price": null,
+   "people": 6,
+   "includes": "Share any iCloud+ plan — 200GB $2.99, 2TB $9.99",
+   "verify": "Family Sharing",
+   "limits": "Organizer + 5",
+   "url": "https://support.apple.com/en-us/108047"
+  },
+  {
+   "group": "family",
+   "id": "microsoft365",
+   "plan": "Microsoft 365 Family",
+   "price": 12.99,
+   "people": 6,
+   "includes": "Office apps + 1TB each; $129.99/yr",
+   "verify": "Family sharing invite",
+   "limits": "Up to 6",
+   "url": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products"
+  },
+  {
+   "group": "family",
+   "id": "duolingo",
+   "plan": "Super Duolingo Family",
+   "price": 119.99,
+   "billing": "yearly",
+   "people": 6,
+   "includes": "Super for 6 accounts",
+   "verify": "Invite from the plan manager",
+   "limits": "Up to 6",
+   "url": "https://www.duolingo.com/",
+   "unconfirmed": true
+  },
+  {
+   "group": "family",
+   "id": "nintendo",
+   "plan": "Switch Online Family",
+   "price": 34.99,
+   "billing": "yearly",
+   "people": 8,
+   "includes": "Online for 8 accounts; + Expansion Pack $79.99/yr",
+   "verify": "Nintendo Family Group",
+   "limits": "12-month plan",
+   "url": "https://www.nintendo.com/us/switch/online/family-membership"
+  },
+  {
+   "group": "family",
+   "id": "1password",
+   "plan": "1Password Families",
+   "price": 71.88,
+   "billing": "yearly",
+   "people": 5,
+   "includes": "5 users",
+   "verify": "Invite family members",
+   "limits": "5 users included",
+   "url": "https://1password.com/pricing/password-manager"
+  },
+  {
+   "group": "family",
+   "id": "googleone",
+   "plan": "Google One plan sharing",
+   "price": null,
+   "people": 6,
+   "includes": "Share your storage / AI plan",
+   "verify": "Google family group",
+   "limits": "Manager + 5",
+   "url": "https://one.google.com/about/plans"
+  },
+  {
+   "group": "family",
+   "id": "amazonmusic",
+   "plan": "Music Unlimited Family",
+   "price": 219,
+   "billing": "yearly",
+   "people": 6,
+   "includes": "6 accounts",
+   "verify": "Amazon household",
+   "limits": "Up to 6",
+   "url": "https://www.amazon.com/music/unlimited",
+   "unconfirmed": true
   }
  ]
 }
