@@ -1,0 +1,330 @@
+{
+ "asOf": "2026-10-26",
+ "note": "Student plans + bundles for PactPin \"Deals for you\". id = catalog service id. price = USD (null = not shown publicly → \"See page\"); billing defaults to monthly. until = YYYY-MM-DD the offer ends (hidden after). unconfirmed = price not on the official page. perk = phone carrier.",
+ "student": [
+  {
+   "id": "spotify",
+   "plan": "Premium Student",
+   "price": 6.99,
+   "includes": "Hulu (With Ads)",
+   "verify": "SheerID",
+   "limits": "18+, US college; 12 months, re-verify up to 3 times",
+   "url": "https://www.spotify.com/us/student/"
+  },
+  {
+   "id": "applemusic",
+   "plan": "Student",
+   "price": 6.99,
+   "includes": "Apple TV at no extra cost",
+   "verify": "UNiDAYS",
+   "limits": "College students, up to 4 years; no Family Sharing",
+   "url": "https://www.apple.com/apple-music/"
+  },
+  {
+   "id": "youtube",
+   "plan": "Student",
+   "price": 8.99,
+   "includes": "Google AI Pro (US college students)",
+   "verify": "SheerID",
+   "limits": "College students, up to 4 years; re-verify yearly",
+   "url": "https://www.youtube.com/premium"
+  },
+  {
+   "id": "primevideo",
+   "plan": "Prime for Young Adults",
+   "price": 7.49,
+   "includes": "Full Prime + Prime Video; 6-month free trial",
+   "verify": ".edu email or proof of enrollment — or age 18–24",
+   "limits": "Up to 4 years or age 25; $69/yr option",
+   "url": "https://www.aboutamazon.com/news/retail/amazon-prime-for-young-adults"
+  },
+  {
+   "id": "hulu",
+   "plan": "Student (With Ads)",
+   "price": 1.99,
+   "includes": "",
+   "verify": "SheerID",
+   "limits": "US college, while enrolled; no free trial",
+   "url": "https://www.hulu.com/student"
+  },
+  {
+   "id": "disneyplus",
+   "plan": "Disney+, Hulu Bundle Student",
+   "price": 6.49,
+   "includes": "Hulu (With Ads)",
+   "verify": "SheerID",
+   "limits": "US 18+, college; re-verify yearly; billed by Disney directly",
+   "url": "https://www.disneyplus.com/welcome/disney-hulu-student-discount"
+  },
+  {
+   "id": "hbomax",
+   "plan": "Basic with Ads (Student)",
+   "price": 5.49,
+   "includes": "",
+   "verify": "UNiDAYS",
+   "limits": "18+, US college; 12 months, re-verify yearly",
+   "url": "https://www.hbomax.com/student"
+  },
+  {
+   "id": "peacock",
+   "plan": "Premium (Student)",
+   "price": 6.99,
+   "includes": "",
+   "verify": "SheerID",
+   "limits": "18+, US college; 12 months, renewable",
+   "url": "https://www.peacocktv.com/student"
+  },
+  {
+   "id": "paramount",
+   "plan": "Student discount",
+   "price": null,
+   "includes": "Discount on any plan",
+   "verify": "SheerID",
+   "limits": "First 12 months, US only",
+   "url": "https://www.paramountplus.com/account/signup/edu-offer/",
+   "unconfirmed": true
+  },
+  {
+   "id": "adobe",
+   "plan": "Creative Cloud Pro (Students)",
+   "price": 19.99,
+   "includes": "All apps",
+   "verify": "School email or proof of enrollment",
+   "limits": "First-year price on an annual plan, then $39.99/mo; 13+",
+   "url": "https://helpx.adobe.com/account/individual/subscriptions-and-plans/plan-types-and-eligibility/changes-to-individual-plan.html"
+  },
+  {
+   "id": "microsoft365",
+   "plan": "Personal (college student)",
+   "price": 4.99,
+   "includes": "",
+   "verify": "School email / student ID",
+   "limits": "College students; re-verify yearly",
+   "url": "https://www.microsoft.com/en-US/microsoft-365/college-student-pricing"
+  },
+  {
+   "id": "notion",
+   "plan": "Education Plan",
+   "price": 0,
+   "includes": "Plus plan, free",
+   "verify": "School .edu email",
+   "limits": "College/university only; re-verify yearly",
+   "url": "https://www.notion.com/help/notion-for-education"
+  },
+  {
+   "id": "canva",
+   "plan": "Canva for Education",
+   "price": 0,
+   "includes": "Pro features",
+   "verify": "Teacher invite (K-12) or a campus license",
+   "limits": "K-12, or colleges with a Canva Campus license",
+   "url": "https://www.canva.com/education/students/"
+  },
+  {
+   "id": "figma",
+   "plan": "Education plan",
+   "price": 0,
+   "includes": "",
+   "verify": "SheerID + school email",
+   "limits": "13+; re-apply every 1–2 years",
+   "url": "https://help.figma.com/hc/en-us/articles/360041061214-Figma-for-Education"
+  },
+  {
+   "id": "headspace",
+   "plan": "Student Plan",
+   "price": 9.99,
+   "billing": "yearly",
+   "includes": "",
+   "verify": "SheerID",
+   "limits": "18+, college students",
+   "url": "https://www.headspace.com/studentplan"
+  },
+  {
+   "id": "calm",
+   "plan": "Student Plan",
+   "price": null,
+   "includes": "",
+   "verify": "Student verification",
+   "limits": "18+, US college; 30-day trial",
+   "url": "https://support.calm.com/hc/en-us/articles/18385039531291-Calm-Student-Plan",
+   "unconfirmed": true
+  },
+  {
+   "id": "chatgpt",
+   "plan": "Plus — back-to-school offer",
+   "price": 0,
+   "includes": "4 months of Plus free, then $20/mo",
+   "verify": "SheerID",
+   "limits": "US college/grad students; claim by Oct 31, 2026; not via App Store billing",
+   "url": "https://help.openai.com/en/articles/20001493-chatgpt-back-to-school-offer-for-students",
+   "until": "2026-10-31"
+  },
+  {
+   "id": "googleone",
+   "plan": "Google AI Pro — free for students",
+   "price": 0,
+   "includes": "Gemini Pro features + 5 TB storage for 12 months",
+   "verify": "SheerID (school email)",
+   "limits": "US college, 18+; redeem by Dec 31, 2026; then $19.99/mo",
+   "url": "https://gemini.google/students/",
+   "until": "2026-12-31"
+  },
+  {
+   "id": "nyt",
+   "plan": "Student subscription",
+   "price": null,
+   "includes": "Many schools give free access",
+   "verify": "Student verification",
+   "limits": "",
+   "url": "https://www.nytimes.com/subscription",
+   "unconfirmed": true
+  },
+  {
+   "id": "wsj",
+   "plan": "Student subscription",
+   "price": null,
+   "includes": "",
+   "verify": "Student verification",
+   "limits": "Graduates keep a discounted rate",
+   "url": "https://store.wsj.com",
+   "unconfirmed": true
+  },
+  {
+   "id": "wapo",
+   "plan": "Academic rate",
+   "price": null,
+   "includes": "",
+   "verify": "Academic email",
+   "limits": "US/CA/MX college students; ends at graduation",
+   "url": "https://helpcenter.washingtonpost.com/hc/en-us/articles/115002035092-Academic-rate-for-the-Core-subscription",
+   "unconfirmed": true
+  },
+  {
+   "id": "walmartplus",
+   "plan": "Walmart+ Student",
+   "price": 6.47,
+   "includes": "Paramount+ Essential or Peacock Premium (with ads)",
+   "verify": "Student verification",
+   "limits": "College + grad students; $49/yr option",
+   "url": "https://www.walmart.com/plus/student"
+  }
+ ],
+ "noStudent": {
+  "netflix": "No student plan — some phone plans include it (see bundles)",
+  "duolingo": "No student plan — the Family plan (up to 6) is the cheap route",
+  "appleone": "No student tier — Apple Music Student includes Apple TV",
+  "icloud": "No student pricing",
+  "claude": "No individual student plan — some campuses have an Education plan"
+ },
+ "bundles": [
+  {
+   "id": "disney-hulu-max-ads",
+   "name": "Disney+, Hulu, HBO Max (with ads)",
+   "price": 21.99,
+   "replaces": [
+    "disneyplus",
+    "hulu",
+    "hbomax"
+   ],
+   "url": "https://www.disneyplus.com/welcome/disney-hulu-hbo-max-bundle"
+  },
+  {
+   "id": "disney-hulu-max-noads",
+   "name": "Disney+, Hulu, HBO Max (no ads)",
+   "price": 34.99,
+   "replaces": [
+    "disneyplus",
+    "hulu",
+    "hbomax"
+   ],
+   "url": "https://www.disneyplus.com/welcome/disney-hulu-hbo-max-bundle"
+  },
+  {
+   "id": "disney-hulu-ads",
+   "name": "Disney+, Hulu (with ads)",
+   "price": 12.99,
+   "replaces": [
+    "disneyplus",
+    "hulu"
+   ],
+   "url": "https://www.disneyplus.com/"
+  },
+  {
+   "id": "appleone-individual",
+   "name": "Apple One Individual",
+   "price": 21.95,
+   "replaces": [
+    "applemusic",
+    "icloud",
+    "appletv",
+    "applearcade"
+   ],
+   "url": "https://www.apple.com/apple-one/"
+  },
+  {
+   "id": "appleone-family",
+   "name": "Apple One Family",
+   "price": 27.95,
+   "replaces": [
+    "applemusic",
+    "icloud",
+    "appletv",
+    "applearcade"
+   ],
+   "url": "https://www.apple.com/apple-one/"
+  },
+  {
+   "id": "yt-aipro-student",
+   "name": "YouTube Premium + Google AI Pro (students)",
+   "price": 8.99,
+   "replaces": [
+    "youtube",
+    "googleone"
+   ],
+   "student": true,
+   "url": "https://blog.youtube/news-and-events/back-school-youtube-premium-google-ai-pro/"
+  },
+  {
+   "id": "walmartplus",
+   "name": "Walmart+ (includes Paramount+ or Peacock)",
+   "price": 8.17,
+   "replaces": [
+    "paramount",
+    "peacock"
+   ],
+   "url": "https://www.walmart.com/help/article/walmart-streaming-benefits/35624ec8e133496ab647a398a90cf779"
+  },
+  {
+   "id": "tmobile-more",
+   "name": "T-Mobile Experience More — Netflix included",
+   "price": 0,
+   "replaces": [
+    "netflix"
+   ],
+   "perk": "T-Mobile",
+   "url": "https://www.t-mobile.com/news/un-carrier/why-new-experience-plans-are-for-you"
+  },
+  {
+   "id": "tmobile-beyond",
+   "name": "T-Mobile Experience Beyond — Netflix + Hulu included",
+   "price": 0,
+   "replaces": [
+    "netflix",
+    "hulu"
+   ],
+   "perk": "T-Mobile",
+   "url": "https://www.t-mobile.com/tv-streaming/hulu-on-us-deal"
+  },
+  {
+   "id": "verizon-netflix-max",
+   "name": "Verizon perk — Netflix + HBO Max (with ads)",
+   "price": 13,
+   "replaces": [
+    "netflix",
+    "hbomax"
+   ],
+   "perk": "Verizon",
+   "url": "https://www.verizon.com/support/netflix-max-perk-faqs/"
+  }
+ ]
+}
